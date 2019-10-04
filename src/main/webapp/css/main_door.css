@@ -1,0 +1,60 @@
+body{
+	background: url(../img/bg/metal.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	width:50%;
+}
+.wrap{
+	background-image: url(../img/maindoor.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 95%;
+	height: 90vh;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/* transition: 1s; */
+}
+.select_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 1px solid #fff;
+	color: white;
+	font-size: 90px;
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+}
+.select_text .boys{
+	width: 100%;
+	cursor: pointer;
+	transition: .5s;
+}
+.select_text .boys p{
+	text-align: center;
+	color: white;
+}
+.select_text .girls{
+	width: 100%;
+	cursor: pointer;
+	transition: .5s;
+}
+.select_text .girls p {
+	text-align: center;
+	color: white;
+}
+.select_text div p {
+	/* font-family: 'Notable', sans-serif; */
+	/* font-family: 'Varela Round', sans-serif;  */
+	font-family: 'Abril Fatface', cursive;
+}
+
